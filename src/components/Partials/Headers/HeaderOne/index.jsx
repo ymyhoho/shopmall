@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import ThinBag from "../../../Helpers/icons/ThinBag";
 import Middlebar from "./Middlebar";
 import Navbar from "./Navbar";
-import TopBar from "./TopBar";
+// import TopBar from "./TopBar";
 
 export default function HeaderOne({ className, drawerAction, type = 1 }) {
   return (
     <header className={` ${className || ""} header-section-wrapper relative`}>
-      <TopBar className="quomodo-shop-top-bar" />
+      {/* <TopBar className="quomodo-shop-top-bar" /> */}
       <Middlebar
         type={type}
         className="quomodo-shop-middle-bar lg:block hidden"

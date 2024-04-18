@@ -17,7 +17,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import ProductsCompaire from "./components/ProductsCompaire/index";
 import SallerPage from "./components/SallerPage";
 import Sallers from "./components/Sellers";
-import SingleProductPage from "./components/SingleProductPage";
+// import SingleProductPage from "./components/SingleProductPage";
 import TermsCondition from "./components/TermsCondition/index";
 import TrackingOrder from "./components/TrackingOrder";
 import Wishlist from "./components/Wishlist";
@@ -25,7 +25,7 @@ import Wishlist from "./components/Wishlist";
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/all-products", element: <AllProductPage /> },
-  { path: "/single-product", element: <SingleProductPage /> },
+  // { path: "/single-product", element: <SingleProductPage /> },
   { path: "/cart", element: <CardPage /> },
   { path: "/checkout", element: <CheakoutPage /> },
   { path: "/wishlist", element: <Wishlist /> },
